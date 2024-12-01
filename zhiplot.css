@@ -1,0 +1,135 @@
+body{
+background-color:rgb(150,100,0);
+}
+
+/*Mainpages*/
+#plotTable{
+display:none;
+
+}
+
+/*collectDatasubstyles*/
+#collectData {
+display:block;
+}
+#version{
+color:rgb(0,0,150);
+font-size:2vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+#title{
+color:gold;
+font-size:3.5vh;
+font-weight:bolder;
+text-transform:uppercase;
+text-shadow:2px 2px red;
+text-decoration:underline;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+button#buttonCreateTable{
+	color:blue;
+	text-transform:uppercase;
+	float:right;
+	border-radius:2vh;
+}
+
+#teacherName{
+border-radius:1vh;
+border:3px solid black;
+
+text-transform:uppercase;
+border-collapse:collapse;
+width:70vw;
+}
+#addTeacher{
+color:green;
+border-radius:1.5vh;
+border-color:green;
+border:3px solid green;
+width:15vw;
+border-collapse:collapse;
+}
+
+
+/*plotTablesubstyles*/
+table{
+border-collapse:collapse;
+margin:3%;
+padding-block:5%;
+}
+
+td.emptyCell{
+  background-color: rgb(0,0,0); /* Use a valid color name or code, like "white" or "#FFFFFF" */
+  border: 1px solid black; /* Remove the space between "1" and "px" */
+  padding: 30px;
+  text-align: center;
+}
+td{
+  background-color: rgb(100,0,55); /* Use a valid color name or code, like "white" or "#FFFFFF" */
+  border: 1px solid black; /* Remove the space between "1" and "px" */
+  padding: 30px;
+  text-align: center;
+}
+th {
+  background-color: rgb(0,0,255); /* Use a valid color name or code, like "white" or "#FFFFFF" */
+  border: 2px solid black; /* Remove the space between "1" and "px" */
+  padding: 30px;
+  text-align: center;
+  width:20vw;
+}
+
+#cellPopupContainerItems{
+  background-color:blue;
+  overflow-y:auto;
+  max-height:100%;
+  width:100%;
+  
+  
+}
+
+#cellPopupContainer{
+  display:block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blue;
+  padding: 10px;
+  border: 10px solid black;
+  border-radius:5px;
+  border-collapse:collapse;
+  z-index: 9;
+  text-align:left;
+  width:85vw;
+  height:85vh;
+  overflow-y:auto;
+  
+  
+  
+}
+#popupBackground {
+	display:none;  
+	position:absolute;top:0;left:0;
+	width:100vw;
+	height:100vh;
+	background-color:rgb(255,255,255,0.9);
+	z-index:9;
+}
+#doneBtn {
+	padding:2vh;
+	border:0.5vh solid green;
+	z-index:15;
+	position:absolute;top:85%;left:75%;
+	float:right;
+	border-radius:2vh;
+	text-transform:uppercase;
+	font:Arial,sans-serif;
+	font:bolder;
+	color:green;
+}

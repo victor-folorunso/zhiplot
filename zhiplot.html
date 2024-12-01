@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Table</title>
+    <link rel="stylesheet" href="/storage/emulated/0/zhiplot.css"  >
+    <style type="text/css">
+    
+    </style>
+</head>
+<body>
+
+<div id="collectData">
+	<p><strong><span id="title">create your custom time table</span><span id="version">zhiplot version 1.(optimised for nigerian secondary schools)</span></strong></p>
+	<div id="teacherSubjects">
+	<!-- an ideal teacher
+	<div id="T1" >	
+    	<h3 id="T1" >teacher x<input id="T1" type="checkbox" ></h3>   		
+    	<ul id="T1" >
+       		<li>a</li>
+        	<li>b</li>		
+    	</ul>  		
+    	<span id="T1" ><input class="T1" type="text" placeholder="add teachers subject">&nbsp;<button id="T1" onclick="addTeacherSubject()">+</button></span><br><br>
+	
+   	</div>
+   	-->
+    </div>
+    <span id="collectDataControls" >
+    <input id="teacherName" type="text" placeholder="teacher name (add teachers)">&nbsp;<button id="addTeacher" onclick="addTeacherName()">+</button>
+    <br><br><button id="buttonCreateTable"  onclick="buttonCreateTable()" ><strong>create table &nbsp;&gt;&gt;</strong></button>
+    </span>
+</div>
+
+<div id="plotTable">
+	
+    <table id="table" >
+    
+      <!-- the ideal table rows
+        <tr>
+            <th>jss 1</th>
+            <td>x1y1</td>
+            <td>x1y2</td>
+        </tr> -->
+    </table>
+    
+</div>
+
+<div id="popupBackground" >
+
+<div id="cellPopupContainer" >
+	<strong style="text-transform:uppercase" >select subject(s)<hr></strong>
+	<div id="cellPopupContainerItems" >
+	<!--<span id="popup1" style="display:none; margin-bottom: 100px;">		
+		<span><input  type="checkbox"> &nbsp;&nbsp;Subject 1<br></span>
+		<span><input  type="checkbox"> &nbsp;&nbsp;Subject 1<br></span>
+	</span>	-->
+	</div>
+	
+	<button id="doneBtn"  >done&nbsp;&gt;&gt;</button>
+	
+</div>
+</div>
+
+
+<script src='/storage/emulated/0/zhiplot.js'></script>
+</body>
+</html>
